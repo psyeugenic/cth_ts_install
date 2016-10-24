@@ -1,0 +1,15 @@
+{application, cth_ts_install,
+ [{description, "A Common Test hokk"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [ts_install_cth]},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
